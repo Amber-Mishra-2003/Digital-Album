@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Album</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="path/to/foundation-icons.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Magnificence of Nature</h1>
+        <div class="image-viewer">
+            <img id="currentImage" src="image1.jpg" alt="Nature Image">
+        </div>
+        <div class="controls">
+            
+            <button onclick="prevImage()">
+                <img src="previous (1).png" style="width: 18px; height: 12px;" >
+            </button>
+
+            <button onclick="nextImage()">
+                <img src="next.png" style="width: 18px; height: 12px;" >
+            </button>
+
+            <button onclick="firstImage()">
+                <img src="first.png" style="width: 18px; height: 12px;" >
+            </button>
+
+            <button onclick="lastImage()">
+                <img src="last.png" style="width: 18px; height: 12px;" >
+            </button>
+            <button onclick="shuffleImages()">
+                <img src="shuffle.png" style="width: 18px; height: 12px;" >
+            </button>
+        </div>
+        <div class="film-strip" id="filmStrip">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

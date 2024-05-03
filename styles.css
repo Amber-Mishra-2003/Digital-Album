@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.image-viewer {
+    margin-bottom: 20px;
+
+}
+
+.controls button {
+    margin: 5px;
+    padding: 20px 24px;
+    border: none;
+   /* background-color: #000000;*/
+    color: #000000;
+    cursor: pointer;
+}
+
+.film-strip img {
+    max-width: 100px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+#currentImage{
+    margin-bottom: 20px;
+    width: 800px; 
+    height: 400px;
+    object-fit: cover;
+}
