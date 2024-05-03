@@ -8,11 +8,22 @@ body {
     text-align: center;
 }
 
+.container1 {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
 .image-viewer {
     margin-bottom: 20px;
 
 }
 
+.headerline {
+    width: 100%; 
+    margin-left: auto;
+    margin-right: auto;
+}
 .controls button {
     margin: 5px;
     padding: 20px 24px;
